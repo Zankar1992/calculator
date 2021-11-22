@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 const App = () => { 
@@ -20,7 +20,7 @@ const App = () => {
     try{
         setResult(eval(result).toString())
     } catch(err) {
-        setResult("error");
+        setResult("error")
     }
   }
 
