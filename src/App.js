@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState,useRef } from 'react';
 import './App.css';
 
-const App = () => {
+const App = () => { 
   const [result, setResult] = useState('');
 
   const handleClick = (e) => {
@@ -24,11 +24,7 @@ const App = () => {
     }
   }
 
-  const percent = () => {  
-    
-  }
-
-  return(
+  return( 
     <>
       <div className="container">
         <form>
@@ -52,8 +48,8 @@ const App = () => {
           <button className="highlight" name="+" onClick={handleClick}>+</button>
           <button name="0" onClick={handleClick}>0</button>
           <button className="highlight" name="." onClick={handleClick}>.</button>
-          <button className="highlight" name="=" onClick={calculate} id="result">=</button>
-          <button className="highlight" name="%" onClick={percent}>%</button>
+          <button className="highlight" name="%" onClick={handleClick}>%</button>
+          <button className="highlight" name="=" onClick={calculate} id="result">Result</button> 
         </div>
       </div>    
     </>

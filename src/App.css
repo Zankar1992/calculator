@@ -61,7 +61,7 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   margin: 0 auto;
-  width: 256px;
+  width: 290px;
   text-align: center;
   border: 10px solid #101116;
   background: #101116;
@@ -75,7 +75,7 @@ body {
 }
 
 input[type="text"] {
-  height: 75px;
+  height: 60px;
   width: 249px;
   background-color: #10111600;
   border: 0px;
@@ -103,7 +103,7 @@ input[type="text"] {
 }
 
 button {
-  margin: 5px;
+  margin: 4px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
